@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+body {
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: #9ab0f5;
+	background: linear-gradient(to right, #d3daf0, #9ab0f5);
+	width: 92%;
+	max-width: 960px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+}
+
+header {
+	text-align: center;
+	display: block;
+	padding: 30px 0;
+}
+header .profileLogo .logoPlaceholder {
+	background-color: rgba(208,207,207,1.00);
+	width: 187px;
+	text-align: center;
+}
+header .logoPlaceholder span {
+	width: 80px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
+}
+header .profilePhoto {
+	background-color: rgba(237,237,237,1.00);
+	width: 259px;
+	border: 4px solid #2909a0fa;
+    border-radius: 50%;
+	height: 259px;
+	clear: both;
+}
+header .profileHeader h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #363062;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 24px;
+}
+header .profileHeader h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #435585;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 24px;	
+
+}
+hr {
+	background-color: #fff;
+	height: 1px;
+}
+header .profileHeader p {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+
+.socialNetworkNavBar {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  
+  .socialNetwork1,
+  .socialNetwork2,
+  .socialNetwork3 {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  .socialNetwork3 {
+	margin-left: 20px;
+  }
+
+  header .socialNetwork1 img:hover,
+  .socialNetwork2 img:hover,
+  .socialNetwork3 img:hover {
+	opacity: 0.5;
+}
+
+.mainContent .section1 {
+	display: block;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-family: 'Montserrat', sans-serif;
+	color: #427D9D;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	margin: 0 3% 0 0;
+	float: left;
+	clear: both;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	padding: 0px;
+}
+.mainContent .section1 .section1Content {
+	font-family: ProximaNova;
+	font-size: 14px;
+	font-weight: 100;
+	color: rgb(207, 207, 208);
+}
+.mainContent .section1 .section1Content span {
+	color: rgba(146,146,146,1.00);
+	font-family: sans-serif;
+}
+.section2 .sectionContentTitle {
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 18px;
+	font-weight: 700;
+}
+.section2 .sectionContentSubTitle {
+	font-family: sans-serif;
+	color: rgba(68,67,67,1.00);
+	font-size: 14px;
+	font-weight: 400;
+}
+.section2 .sectionContent {
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+.mainContent {
+	display: block;
+}
+.mainContent .externalResourcesNav .externalResources {
+	background-color: #818FB4;
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 3%;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.mainContent .externalResourcesNav .externalResources:hover {
+	background-color: #F5E8C7;
+}
+.externalResourcesNav .externalResources a {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+}
+.stretch {
+	content: '';
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+}
+header .profileHeader {
+	text-align: left;
+	padding-top: 10%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 22.5%;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 26%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 26%;
+	font-family: sans-serif;
+}
+.mainContent .externalResourcesNav {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+@media only screen and (max-width: 480px) {
+	.mainContent .externalResourcesNav {
+	  flex-direction: column; /* Stack items vertically on small screens */
+	}
+  
+	.mainContent .externalResourcesNav .externalResources {
+	  width: 100%; /* Full width for small screens */
+	  margin: 10px 0; /* Add spacing between items */
+	}
+  }
+  
+}
+
+/* Mobile */
+@media (max-width:768px){
+	header .profilePhoto{
+		justify-content: center;
+	}
+	header .profileHeader h1{
+		font-size: 40.5px; 
+      	border: none; 
+	}
+	header .profileHeader h3{
+      	border: none; 
+		font-size: 22px;
+	}
+	header .profileHeader p{
+      	border: none;
+		font-size: 19px;
+	}
+	body{
+		width: 72%;
+		justify-content: center;
+	}
+	.socialNetwork3 {
+		margin-left: 0px;
+	}
+	.sectionTitle{
+		font-size: 26px;
+	}	
+	.section1 .sectionTitle, .section2 .sectionTitle {
+      	border:g none; 
+	}
+	.mainContent .externalResourcesNav .externalResources{
+      border: none; 
+	}
+}
